@@ -1,0 +1,31 @@
+{
+  "name": "ejs-extension-plus-example",
+  "version": "0.0.1",
+  "description": "usage example for ejs-extension-plus",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node start | bunyan -L",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panezhang/ejs-extension-plus-example.git"
+  },
+  "keywords": [
+    "ejs-extension-plus"
+  ],
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "ejs-extension-plus": "0.2.0",
+    "express": "~4.13.1"
+  },
+  "author": "panezhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panezhang/ejs-extension-plus-example/issues"
+  },
+  "homepage": "https://github.com/panezhang/ejs-extension-plus-example"
+}
